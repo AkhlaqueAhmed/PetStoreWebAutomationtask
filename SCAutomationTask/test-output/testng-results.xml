@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-03T01:43:17 AST" name="Suite" finished-at="2021-09-03T01:43:17 AST" duration-ms="9">
+  <suite started-at="2021-09-03T01:46:16 AST" name="Suite" finished-at="2021-09-03T01:46:16 AST" duration-ms="8">
     <groups>
     </groups>
-    <test started-at="2021-09-03T01:43:17 AST" name="Test" finished-at="2021-09-03T01:43:17 AST" duration-ms="9">
+    <test started-at="2021-09-03T01:46:16 AST" name="Test" finished-at="2021-09-03T01:46:16 AST" duration-ms="8">
       <class name="WebAutomationTask.Buttons">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:WebAutomationTask.Buttons@483f6d77]" started-at="2021-09-03T01:43:17 AST" name="setUp" finished-at="2021-09-03T01:43:17 AST" duration-ms="30" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WebAutomationTask.Buttons@483f6d77]" started-at="2021-09-03T01:46:16 AST" name="setUp" finished-at="2021-09-03T01:46:16 AST" duration-ms="34" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
