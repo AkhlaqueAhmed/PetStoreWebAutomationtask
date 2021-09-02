@@ -8,6 +8,9 @@
 
     <classes>
       <class name="WebAutomationTask.Buttons"/>
+      <class name="WebAutomationTask.IframeTask"/>
+      <class name="WebAutomationTask.TextBox"/>
+      <class name="WebAutomationTask.WindowAlert"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
