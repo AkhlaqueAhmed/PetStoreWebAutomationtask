@@ -5,11 +5,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.ExtentReports;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
-public class Buttons extends ExtendFactory {
+public class Buttons {
 
 	
+	@Test
 	public void ButtonsTest() 
 	{	
 		
@@ -49,7 +54,7 @@ public class Buttons extends ExtendFactory {
 		action1.moveToElement(SingleClick).click().perform();
 		
 		
-		//driver.quit();
+		driver.quit();
 
 	}
 

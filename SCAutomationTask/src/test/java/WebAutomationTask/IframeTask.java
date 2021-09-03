@@ -6,18 +6,23 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class IframeTask {
 
 	
-	public static void main(String[] args) {
+	@Test
+	public void IframeTest() 
+	{	
 		
 			
 		WebDriverManager.chromedriver().setup();
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://demoqa.com/nestedframes");
+		driver.manage().window().maximize();
         
         //Number of Frames on a Page
         int countIframesInPage = driver.findElements(By.tagName("iframe")).size();

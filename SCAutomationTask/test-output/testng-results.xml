@@ -1,44 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-03T01:46:16 AST" name="Suite" finished-at="2021-09-03T01:46:16 AST" duration-ms="8">
+  <suite started-at="2021-09-03T03:14:58 AST" name="Suite" finished-at="2021-09-03T03:15:20 AST" duration-ms="22168">
     <groups>
     </groups>
-    <test started-at="2021-09-03T01:46:16 AST" name="Test" finished-at="2021-09-03T01:46:16 AST" duration-ms="8">
-      <class name="WebAutomationTask.Buttons">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:WebAutomationTask.Buttons@483f6d77]" started-at="2021-09-03T01:46:16 AST" name="setUp" finished-at="2021-09-03T01:46:16 AST" duration-ms="34" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.io.File.<init>(File.java:278)
-at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
-at WebAutomationTask.ExtendFactory.setUp(ExtendFactory.java:19)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+    <test started-at="2021-09-03T03:14:58 AST" name="Test" finished-at="2021-09-03T03:15:20 AST" duration-ms="22168">
+      <class name="WebAutomationTask.TextBox">
+        <test-method signature="TestBoxTest()[pri:0, instance:WebAutomationTask.TextBox@759d26fb]" started-at="2021-09-03T03:15:10 AST" name="TestBoxTest" finished-at="2021-09-03T03:15:15 AST" duration-ms="5030" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
+        </test-method> <!-- TestBoxTest -->
+      </class> <!-- WebAutomationTask.TextBox -->
+      <class name="WebAutomationTask.IframeTask">
+        <test-method signature="IframeTest()[pri:0, instance:WebAutomationTask.IframeTask@4bb33f74]" started-at="2021-09-03T03:15:05 AST" name="IframeTest" finished-at="2021-09-03T03:15:10 AST" duration-ms="5315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IframeTest -->
+      </class> <!-- WebAutomationTask.IframeTask -->
+      <class name="WebAutomationTask.WindowAlert">
+        <test-method signature="WindowAlertTest()[pri:0, instance:WebAutomationTask.WindowAlert@3c73951]" started-at="2021-09-03T03:15:15 AST" name="WindowAlertTest" finished-at="2021-09-03T03:15:20 AST" duration-ms="5251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowAlertTest -->
+      </class> <!-- WebAutomationTask.WindowAlert -->
+      <class name="WebAutomationTask.Buttons">
+        <test-method signature="ButtonsTest()[pri:0, instance:WebAutomationTask.Buttons@6d3a388c]" started-at="2021-09-03T03:14:58 AST" name="ButtonsTest" finished-at="2021-09-03T03:15:05 AST" duration-ms="6518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonsTest -->
       </class> <!-- WebAutomationTask.Buttons -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -13,17 +14,16 @@ import com.aventstack.extentreports.ExtentTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TextBox {
-	ExtentReports report;
-	ExtentTest test;
+
 		
-	
-	
-	public static void main(String[] args) {
+	@Test	
+	public void TestBoxTest() 
+	{	
 
 		WebDriverManager.chromedriver().setup();
 
 		WebDriver driver = new ChromeDriver();
-
+		driver.manage().window().maximize();
 		   driver.get("https://demoqa.com/text-box/");
 			
 		   // Find elements using tag name
@@ -44,8 +44,7 @@ public class TextBox {
 		   driver.findElement(By.id("userEmail")).sendKeys("TestUser@gmail.com");
 		   driver.findElement(By.id("currentAddress")).sendKeys("This is the currenct addressABC");
 		   driver.findElement(By.id("permanentAddress")).sendKeys("This is the permanent addressXYZ");
-		   driver.findElement(By.id("submit")).click();
-		  
+		   
 		   //Close the browser
 		   driver.close();
 		   

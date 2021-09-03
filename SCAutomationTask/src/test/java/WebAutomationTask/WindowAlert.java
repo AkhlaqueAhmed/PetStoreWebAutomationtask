@@ -6,12 +6,17 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.ExtentReports;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class WindowAlert {
-
-	public static void main(String[] args) {
+	
+	@Test
+	public void WindowAlertTest() 
+	{	
 		
 
 			WebDriverManager.chromedriver().setup();

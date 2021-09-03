@@ -3,12 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="WebAutomationTask.Buttons">
+      <class name="WebAutomationTask.TextBox">
         <methods>
-          <include name="setUp"/>
-          <include name="ButtonsTest"/>
+          <include name="TestBoxTest"/>
         </methods>
-      </class> <!-- WebAutomationTask.Buttons -->
+      </class> <!-- WebAutomationTask.TextBox -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
