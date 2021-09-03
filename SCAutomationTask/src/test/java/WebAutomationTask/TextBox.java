@@ -24,6 +24,7 @@ public class TextBox {
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		
 		   driver.get("https://demoqa.com/text-box/");
 			
 		   // Find elements using tag name
